@@ -60,7 +60,7 @@ class ContactCreate extends Component
             'contactWhatsApp' => $this->contactWhatsApp
         ];
 
-        Contact::createNewItem( $items );
+        Contact::createNewItem( $items ); //hola
 
         $this->resetInput();
         $this->hydrate();
